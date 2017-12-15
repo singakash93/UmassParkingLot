@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#19B"
+    >
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/menuIcon"
+        android:src="@drawable/umass_logo_white_200px"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" UMBParkingLot"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="#19B"
+        android:textColor="#ffff"
+        android:textStyle="bold"/>
+
+</android.support.v7.widget.Toolbar>
+

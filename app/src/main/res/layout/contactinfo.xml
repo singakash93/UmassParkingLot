@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#19B5FE">
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Contact Us:"
+        android:textColor="#ffff"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:text="    University of Mass. Boston"
+        android:textColor="#ffff"
+        android:textSize="21sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    Morrissey Blvd."
+        android:textColor="#ffff"
+        android:textSize="21sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    Boston,MA 02125-3393"
+        android:textColor="#ffff"
+        android:textSize="21sp"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    617.287.5000"
+        android:textColor="#ffff"
+        android:textSize="21sp"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>

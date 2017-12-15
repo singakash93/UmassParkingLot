@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="aakash.parking.com.umassparkinglot.Splashscreen">
+
+
+
+    <item
+        android:id="@+id/menu_parking"
+        android:orderInCategory="101"
+        android:title="Parking Lot"/>
+
+    <item
+        android:id="@+id/menu_shuttle"
+        android:orderInCategory="102"
+        android:title="Shuttle Info"/>
+    <item
+        android:id="@+id/menu_wallet"
+        android:orderInCategory="103"
+        android:title="E - Wallet Pass"/>
+    <item
+        android:id="@+id/menu_payment"
+        android:orderInCategory="104"
+        android:title="Secure Payment"/>
+    <item
+        android:id="@+id/menu_contact"
+        android:orderInCategory="105"
+        android:title="Contact Us"/>
+    <item
+        android:id="@+id/menu_logout"
+        android:orderInCategory="107"
+        android:title="Logout"/>
+
+</menu>

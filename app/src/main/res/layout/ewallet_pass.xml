@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#19B5FE"
+    android:weightSum="1">
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:text="Semester Pass"
+        android:textColor="#ffff"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:layout_weight="0.10"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:text="Monthly Pass"
+        android:textColor="#ffff"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:layout_weight="0.10"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/radioButton3"
+        android:layout_alignStart="@+id/radioButton3" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5-Use pass"
+        android:textColor="#ffff"
+        android:textSize="25sp"
+        android:layout_weight="0.10"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/radioButton4"
+        android:layout_alignStart="@+id/radioButton4" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10-Use pass"
+        android:textColor="#ffff"
+        android:textSize="25sp"
+        android:layout_weight="0.10"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/radioButton5"
+        android:layout_alignStart="@+id/radioButton5" />
+
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="45-Use pass"
+        android:textColor="#ffff"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/radioButton6"
+        android:layout_alignStart="@+id/radioButton6" />
+
+    <RadioButton
+        android:id="@+id/radioButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="60-Use pass"
+        android:textSize="25sp"
+        android:textColor="#ffff"
+        android:layout_weight="0.10"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/radioButton7"
+        android:layout_alignStart="@+id/radioButton7" />
+
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parking Voilation Ticket"
+        android:textColor="#ffff"
+        android:textSize="25sp"
+        android:layout_weight="0.10"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/radioButton8"
+        android:layout_alignStart="@+id/radioButton8" />
+
+    <Button
+        android:id="@+id/btnSecure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_weight="0.10"
+        android:background="@drawable/btn_background"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/radioButton9"
+        android:layout_alignStart="@+id/radioButton9" />
+
+
+</RelativeLayout>
+
+
+

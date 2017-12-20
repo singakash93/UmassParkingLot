@@ -1,10 +1,10 @@
 # UmassParkingLot
-Umass Parking Lot
-open the app Umass Parking Lot 
-Splash screen appears 
+Open the app Umass Parking Lot 
+Splash screen appears.
 Create an account by clicking on registration button
 If username = admin login as admin else general user 
 [Its mandatory to consider username = admin]to avail control over all the parking Lots] 
+For Instance:
 Username = admin 
 Controls over the parking lot with enabled seek bar function 
 username = aakash/john/mark
